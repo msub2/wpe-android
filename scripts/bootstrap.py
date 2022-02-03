@@ -154,7 +154,7 @@ class Bootstrap:
             package_file.write(package_contents)
 
     def __ensure_cerbero(self):
-        origin = 'https://github.com/Igalia/cerbero.git'
+        origin = 'https://github.com/msub2/cerbero.git'
         branch = 'wpe-android'
 
         cerbero_path = os.path.join(self.__build_dir, 'cerbero')
